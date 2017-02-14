@@ -1,0 +1,6 @@
+ini_open("data.ini")
+    global.key_up = ini_read_string('keys','up','W')
+    global.key_down = ini_read_string('keys','down','S')
+    global.key_left = ini_read_string('keys','left','A')
+    global.key_right = ini_read_string('keys','right','D')
+    ini_close()

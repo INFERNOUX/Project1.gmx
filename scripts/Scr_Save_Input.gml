@@ -1,0 +1,6 @@
+ini_open("data.ini")
+    ini_write_string('keys','up',global.key_up)
+    ini_write_string('keys','down',global.key_down)
+    ini_write_string('keys','left',global.key_left)
+    ini_write_string('keys','right',global.key_right)
+    ini_close()
